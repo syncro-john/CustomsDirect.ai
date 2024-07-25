@@ -4,10 +4,13 @@ If you are developing NCTS P5 (DVA in Nederland)
 you can make use of the code list by using the following URL :
 https://api.customssync.com/{list}/{lang}
 
+<i>example https://api.customssync.com/CL011/nl</i>
+<i>example https://api.customssync.com/CL016</i>
+
 <small>Bron data : https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp (as specified by MIG DVA)</small>
 
-Available values for parameter lang are nl,fr,en,de  (optioneel, when lang in not available for certain language the english value will be given)
-Available values for list are 
+Available values for parameter {lang} are nl,fr,en,de  (optioneel, when lang in not available for certain language the english value will be given)
+Available values for {list} are 
 
 CL008 CountryCodesFullList 
 CL180 FunctionalErrorCodesIeCA
