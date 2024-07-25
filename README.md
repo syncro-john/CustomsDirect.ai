@@ -1,10 +1,14 @@
 # Code-Lists---NCTS-Phase-5
 If you are developing NCTS-P5 applications (DVA in Nederland)  you can make use of the code lists by using the following URL :
 
-<b>https://api.customssync.com/{list}/{lang}</b>
+<b>https://api.customssync.com/{list}/{lang}?Key=1234567890</b>  
 
-<i>example1 https://api.customssync.com/CL011/nl</i><br>
-<i>example2 https://api.customssync.com/CL016</i>
+*****************************************************************************************************************************************
+* Important : In order to avoid abuse, we kindly ask the user to send us an email <to: customs.syncronization@gmail.com > and we send you a key to access the data, free of charge
+******************************************************************************************************************************************
+
+<i>example1 https://api.customssync.com/CL011/nl?Key=1234567890</i><br>
+<i>example2 https://api.customssync.com/CL016?Key=1234567890</i>
 
 <small>Bron data : https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp (as specified by MIG DVA)</small>
 
@@ -14,7 +18,7 @@ nl nederlands<br>
 fr francais<br>
 en english<br>
 de deutch  <br> 
-(note : when lang in not available for certain language the english value will be given)<br>
+(note : when description is not available in requested language the english value will be given)<br>
 
 
 ** Available values for {list} are 
