@@ -8,8 +8,16 @@ If you are developing NCTS-P5 applications (DVA in Nederland)  you can make use 
 
 <small>Bron data : https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp (as specified by MIG DVA)</small>
 
-Available values for parameter {lang} are nl,fr,en,de  (optioneel, when lang in not available for certain language the english value will be given)
-Available values for {list} are 
+** Available values for optional parameter {lang} are 
+
+nl nederlands<br>
+fr francais<br>
+en english<br>
+de deutch  <br> 
+(note : when lang in not available for certain language the english value will be given)<br>
+
+
+** Available values for {list} are 
 
 CL008 CountryCodesFullList <br>
 CL180 FunctionalErrorCodesIeCA <br>
