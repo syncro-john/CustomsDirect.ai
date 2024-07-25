@@ -1,150 +1,149 @@
 # Code-Lists---NCTS-Phase-5
-If you are developing NCTS P5 (DVA in Nederland)
+If you are developing NCTS-P5 applications (DVA in Nederland)  you can make use of the code lists by using the following URL :
 
-you can make use of the code list by using the following URL :
-https://api.customssync.com/{list}/{lang}
+<b>https://api.customssync.com/{list}/{lang}</b>
 
-<i>example https://api.customssync.com/CL011/nl</i>
-<i>example https://api.customssync.com/CL016</i>
+<i>example1 https://api.customssync.com/CL011/nl</i><br>
+<i>example2 https://api.customssync.com/CL016</i>
 
 <small>Bron data : https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp (as specified by MIG DVA)</small>
 
 Available values for parameter {lang} are nl,fr,en,de  (optioneel, when lang in not available for certain language the english value will be given)
 Available values for {list} are 
 
-CL008 CountryCodesFullList 
-CL180 FunctionalErrorCodesIeCA
-CL009 CountryCodesCommonTransit 
-CL181 KindOfPackagesBulk
-CL010 CountryCodesCommunity 
-CL182 KindOfPackagesUnpacked
-CL011 CountryRegime 
-CL183 UnavailabilityExplanation
-CL012 LanguageCodes 
-CL184 MovementQueryRejectionReason
-CL015 GeoInfoCodes 
-CL186 StateAtOfficeOfExitForTransit
-CL016 CUSCode 
-CL187 GuaranteeTypeWithReferenceCredited
-CL017 KindOfPackages 
-CL188 TypeOfTransitDeclarationNonTIR
-CL019 IncidentCode 
-CL189 TypeOfDeclarationTIR
-CL020 TrafficType 
-CL190 CountryAddressPostcodeBased
-CL024 ModificationType 
-CL191 ModificationTypeNoDelete
-CL026 MonthOfYear 
-CL192 LanguageByCustoms
-CL027 Flag 
-CL194 CustomsOfficeExit
-CL029 ResponseCode 
-CL195 ControlResultCodeDepartureSimplifiedExcluded
-CL030 XmlErrorCodes 
-CL196 ControlResultCodeDeparture
-CL038 QualifierOfIdentificationIncident 
-CL197 ControlResultCodeDestination
-CL042 DeclarationTypeAdditional 
-CL198 CoutryAdressPostcodeOnly
-CL048 CurrencyCodes 
-CL199 CoutryCodesWithAdress
-CL050 GuaranteeMonitoringCodes 
-CL211 NoReleaseMotivation
-CL053 PrefixSuffixLevel 
-CL212 GuaranteeInvalidityReason
-CL054 QueryIdentifier 
-CL213 SupportingDocumentType
-CL056 Role 
-CL214 PreviousDocument Type
-CL057 StatisticsType 
-CL215 RequestedDocumentType
-CL058 CustomsOperationStateTypes 
-CL217 DeclarationTypeSecurity
-CL060 MessageTypes 
-CL218 TransportModeCode
-CL067 SpecificNotesCode 
-CL219 TypeOfIdentificationofMeansOfTransportActive
-CL070 CountryCodesCustomsOfficeLists 
-CL221 AarRejectionReason
-CL076 GuaranteeTypeWithReference 
-CL223 DeclarationTypeSecurityEXS
-CL079 SystemUnavailabilityType 
-CL224 AxrRejectionReason
-CL094 RepresentativeSatusCode 
-CL225 AtrRejectionReason
-CL100 ResultIndicator 
-CL226 RejectionCodeDepartureExport
-CL101 UNDangerousGoodsCode 
-CL227 RejectionCodeDestinationExit
-CL105 DayInTheWeek 
-CL228 PreviousDocumentExportType
-CL107 RiskAnalysisIndicator 
-CL229 GuarenteeTypeCTC
-CL112 CountryCodesCTC 
-CL230 GuaranteeTypeEUNonTIR
-CL116 TransportChargesMethodOfPayment 
-CL231 DeclarationType
-CL118 RequestedInformationCode 
-CL232 DeclarationTypeItemLevel
-CL119 InformationCode 
-CL234 PreviousDocumentTypeExcise
-CL141 CustomsOffices 
-CL235 AuthorisationTypeDeparture
-CL142 CoutryRegion 
-CL236 AuthorisationTypeDestination
-CL143 CountryHolidays 
-CL239 AdditionalInformation
-CL144 UNLocode 
-CL243 XFTControlResultCodeDestination
-CL146 CountryGuaranteeNotValid 
-CL244 UnLocodeExtended
-CL147 CountryCustomsSecurityAgreementArea
-CL247 NCTSCountryOutsideCustomsSecurityAgreementArea
-CL152 HScode 
-CL248 CountryCodesForAdress
-CL153 StateAtOfficeOfDeparture 
-CL251 GuaranteeType
-CL154 StateAtOfficeOfDestination 
-CL252 InvalidGuaranteeReason
-CL155 StateAtOfficeOfTransit 
-CL258 CustomsOperationState
-CL156 RoleRequester 
-CL286 GuaranteeTypeWithGRN
-CL158 XFTCommunicationPurpose 
-CL296 SpecificCircumstanceIndicatorCode
-CL162 DiscrepancyResolution 
-CL326 QualifierOfTheIdentification
-CL163 ReleaseType 
-CL347 TypeOfLocation
-CL164 ReleaseNotification 
-CL349 Unit
-CL165 Nationality 
-CL380 AdditionalReference
-CL166 TransitProcedureCategory 
-CL384 NotificationType
-CL168 FunctionalityBusiness 
-CL385 MessageTypeWithoutHeader
-CL169 CustomsSystems 
-CL505 CountryWithoutZip
-CL171 CustomsOfficeDeparture 
-CL553 MSCountry
-CL172 CustomsOfficeDestination 
-CL560 BusinessRejectionTypeDepExp
-CL173 CustomsOfficeTransit 
-CL570 BusinessRejectionTypeDesExt
-CL174 CustomsOfficeGuarantee 
-CL610 MessageWithCorrelationIdentifier
-CL175 CustomsOfficeTransitExit 
-CL704 AdditionalSupplyChainActorRoleCode
-CL176 CustomsOfficeInquiry 
-CL716 ControlType
-CL177 CustomsOfficeRecovery 
-CL740 RiskAreaCode
-CL178 PreviousDocumentUnionGoods 
-CL750 TypeOfIdentificationOfMeansOfTransport
-CL754 TransportDocumentType
-CL902 MessageWithWarning
-CL903 ConsistencyCheck
+CL008 CountryCodesFullList <br>
+CL180 FunctionalErrorCodesIeCA <br>
+CL009 CountryCodesCommonTransit  <br>
+CL181 KindOfPackagesBulk <br>
+CL010 CountryCodesCommunity  <br>
+CL182 KindOfPackagesUnpacked <br>
+CL011 CountryRegime  <br>
+CL183 UnavailabilityExplanation <br>
+CL012 LanguageCodes  <br>
+CL184 MovementQueryRejectionReason <br>
+CL015 GeoInfoCodes  <br>
+CL186 StateAtOfficeOfExitForTransit <br>
+CL016 CUSCode  <br>
+CL187 GuaranteeTypeWithReferenceCredited <br>
+CL017 KindOfPackages  <br>
+CL188 TypeOfTransitDeclarationNonTIR <br>
+CL019 IncidentCode  <br>
+CL189 TypeOfDeclarationTIR <br>
+CL020 TrafficType  <br>
+CL190 CountryAddressPostcodeBased <br>
+CL024 ModificationType  <br>
+CL191 ModificationTypeNoDelete <br>
+CL026 MonthOfYear  <br>
+CL192 LanguageByCustoms <br>
+CL027 Flag  <br>
+CL194 CustomsOfficeExit <br>
+CL029 ResponseCode  <br>
+CL195 ControlResultCodeDepartureSimplifiedExcluded <br>
+CL030 XmlErrorCodes  <br>
+CL196 ControlResultCodeDeparture <br>
+CL038 QualifierOfIdentificationIncident  <br>
+CL197 ControlResultCodeDestination <br>
+CL042 DeclarationTypeAdditional  <br>
+CL198 CoutryAdressPostcodeOnly <br>
+CL048 CurrencyCodes  <br>
+CL199 CoutryCodesWithAdress <br>
+CL050 GuaranteeMonitoringCodes  <br>
+CL211 NoReleaseMotivation <br>
+CL053 PrefixSuffixLevel  <br>
+CL212 GuaranteeInvalidityReason <br>
+CL054 QueryIdentifier  <br>
+CL213 SupportingDocumentType <br>
+CL056 Role  <br>
+CL214 PreviousDocument Type <br>
+CL057 StatisticsType  <br>
+CL215 RequestedDocumentType <br>
+CL058 CustomsOperationStateTypes  <br>
+CL217 DeclarationTypeSecurity <br>
+CL060 MessageTypes  <br>
+CL218 TransportModeCode <br>
+CL067 SpecificNotesCode  <br>
+CL219 TypeOfIdentificationofMeansOfTransportActive <br>
+CL070 CountryCodesCustomsOfficeLists  <br>
+CL221 AarRejectionReason <br>
+CL076 GuaranteeTypeWithReference  <br>
+CL223 DeclarationTypeSecurityEXS <br>
+CL079 SystemUnavailabilityType  <br>
+CL224 AxrRejectionReason <br>
+CL094 RepresentativeSatusCode  <br>
+CL225 AtrRejectionReason <br>
+CL100 ResultIndicator  <br>
+CL226 RejectionCodeDepartureExport <br>
+CL101 UNDangerousGoodsCode  <br>
+CL227 RejectionCodeDestinationExit <br>
+CL105 DayInTheWeek  <br>
+CL228 PreviousDocumentExportType <br>
+CL107 RiskAnalysisIndicator  <br>
+CL229 GuarenteeTypeCTC <br>
+CL112 CountryCodesCTC  <br>
+CL230 GuaranteeTypeEUNonTIR <br>
+CL116 TransportChargesMethodOfPayment  <br>
+CL231 DeclarationType <br>
+CL118 RequestedInformationCode  <br>
+CL232 DeclarationTypeItemLevel <br>
+CL119 InformationCode  <br>
+CL234 PreviousDocumentTypeExcise <br>
+CL141 CustomsOffices  <br>
+CL235 AuthorisationTypeDeparture <br>
+CL142 CoutryRegion  <br>
+CL236 AuthorisationTypeDestination <br>
+CL143 CountryHolidays  <br>
+CL239 AdditionalInformation <br>
+CL144 UNLocode  <br>
+CL243 XFTControlResultCodeDestination <br>
+CL146 CountryGuaranteeNotValid  <br>
+CL244 UnLocodeExtended <br>
+CL147 CountryCustomsSecurityAgreementArea <br>
+CL247 NCTSCountryOutsideCustomsSecurityAgreementArea <br>
+CL152 HScode  <br>
+CL248 CountryCodesForAdress <br>
+CL153 StateAtOfficeOfDeparture  <br>
+CL251 GuaranteeType <br>
+CL154 StateAtOfficeOfDestination  <br>
+CL252 InvalidGuaranteeReason <br>
+CL155 StateAtOfficeOfTransit  <br>
+CL258 CustomsOperationState <br>
+CL156 RoleRequester  <br>
+CL286 GuaranteeTypeWithGRN <br>
+CL158 XFTCommunicationPurpose  <br>
+CL296 SpecificCircumstanceIndicatorCode <br>
+CL162 DiscrepancyResolution  <br>
+CL326 QualifierOfTheIdentification <br>
+CL163 ReleaseType  <br>
+CL347 TypeOfLocation <br>
+CL164 ReleaseNotification  <br>
+CL349 Unit <br>
+CL165 Nationality  <br>
+CL380 AdditionalReference <br>
+CL166 TransitProcedureCategory  <br>
+CL384 NotificationType <br>
+CL168 FunctionalityBusiness  <br>
+CL385 MessageTypeWithoutHeader <br>
+CL169 CustomsSystems  <br>
+CL505 CountryWithoutZip <br>
+CL171 CustomsOfficeDeparture  <br>
+CL553 MSCountry <br>
+CL172 CustomsOfficeDestination  <br>
+CL560 BusinessRejectionTypeDepExp <br>
+CL173 CustomsOfficeTransit  <br>
+CL570 BusinessRejectionTypeDesExt <br>
+CL174 CustomsOfficeGuarantee  <br>
+CL610 MessageWithCorrelationIdentifier <br>
+CL175 CustomsOfficeTransitExit  <br>
+CL704 AdditionalSupplyChainActorRoleCode <br>
+CL176 CustomsOfficeInquiry  <br>
+CL716 ControlType <br>
+CL177 CustomsOfficeRecovery  <br>
+CL740 RiskAreaCode <br>
+CL178 PreviousDocumentUnionGoods  <br>
+CL750 TypeOfIdentificationOfMeansOfTransport <br>
+CL754 TransportDocumentType <br>
+CL902 MessageWithWarning <br>
+CL903 ConsistencyCheck <br>
 
 
 
