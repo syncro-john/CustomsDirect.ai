@@ -1,10 +1,17 @@
 # Customs | direct.ai
-If you are developing NCTS-P5 applications (DVA in Nederland)  you can make use of the code lists by using the following URL :
+
+Info can be found on https://www.customsdirect.ai
+
+You can make use of the following endpoints :
+
+https://api.
+
 
 <b>https://api.customssync.com/{list}/{lang}?Key=1234567890</b>  
 
 *****************************************************************************************************************************************
-* Important : In order to avoid abuse, we kindly ask the user to send us an email <to: customs.syncronization@gmail.com > and we send you a key to access the data, free of charge
+* Important : In order to avoid abuse, we kindly ask the user to send us an email <to: customs.syncronization@gmail.com >
+* and we send you a key to access/test the data, free of charge.
 ******************************************************************************************************************************************
 
 <i>example1 https://api.customssync.com/CL011/nl?Key=1234567890</i><br>
