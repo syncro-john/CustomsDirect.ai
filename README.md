@@ -1,9 +1,9 @@
 # Customs | direct.ai
 
-Info can be found on https://www.customsdirect.ai
+Info kan je vinden op https://www.douanedirect.eu
 
-You can make use of the following endpoints :
 
+Om de voorbeelden/demo's bijgesloten in dit project werkend te krijgen, moet je het volegnde data endpoint instellen : 
 https://data.customsdirect.ai
 
 
