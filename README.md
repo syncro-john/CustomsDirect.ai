@@ -4,7 +4,7 @@ Info kan je vinden op https://www.douanedirect.eu
 
 
 Om de voorbeelden/demo's bijgesloten in dit project werkend te krijgen, moet je het volegnde data endpoint instellen : 
-https://data.customsdirect.ai
+https://data.customsdirect.eu
 
 
 
